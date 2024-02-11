@@ -2,7 +2,7 @@
 title = 'OS作(ろうとす)る #1'
 author = 'nikachu2012'
 date = 2024-02-11T20:00:00+09:00
-description = "importを用いずPythonでSHA256を計算しました。"
+description = "ゼロからのOS自作入門を読みながら、UEFI上でHello, world!してみた"
 tags = [
     "c",
     "os",
