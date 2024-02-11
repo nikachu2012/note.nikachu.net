@@ -1,0 +1,22 @@
+baseURL = 'https://note.nikachu.net'
+languageCode = 'ja-jp'
+title = 'note.nikachu.net'
+
+theme = "paper"
+
+[params]
+color = 'wheat'
+# header social icons
+twitter = 'nikachu2012'   # twitter.com/YOUR_TWITTER_ID
+github = 'nikachu2012'    # github.com/YOUR_GITHUB_ID
+instagram = 'nikachu2012' # instagram.com/YOUR_INSTAGRAM_ID
+rss = true                # show rss icon
+math = true               # enable KaTeX math typesetting globally
+
+avatar = '/nikachu.webp' # gravatar email or image url
+name = 'nikachu'
+bio = 'なんかしてる人'
+
+[markup]
+[markup.highlight]
+lineNos = true
