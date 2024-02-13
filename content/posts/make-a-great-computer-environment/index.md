@@ -1,7 +1,7 @@
 +++
 title = '最強のPC環境を作る'
 author = 'nikachu2012'
-description = ""
+description = "筆者のニカチュウが最強のPC環境を作るためのメモです。"
 date = 2024-02-13T21:26:17+09:00
 tags = ["pc", "os", "linux"]
 series = []
