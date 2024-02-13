@@ -11,7 +11,7 @@ twitter = 'nikachu2012'   # twitter.com/YOUR_TWITTER_ID
 github = 'nikachu2012'    # github.com/YOUR_GITHUB_ID
 instagram = 'nikachu2012' # instagram.com/YOUR_INSTAGRAM_ID
 rss = true                # show rss icon
-math = true               # enable KaTeX math typesetting globally
+math = false              # enable KaTeX math typesetting globally
 
 avatar = '/nikachu.webp' # gravatar email or image url
 name = 'nikachu'
