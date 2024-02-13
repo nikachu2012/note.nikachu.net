@@ -3,7 +3,7 @@ title = 'GitHub使う'
 author = 'nikachu2012'
 description = "GitHubをとりあえず使えるようになるためのガイド。"
 date = 2024-02-11T22:38:24+09:00
-tags = []
+tags = ["github", "howto"]
 series = []
 alias = []
 +++
