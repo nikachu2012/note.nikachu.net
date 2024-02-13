@@ -1,0 +1,28 @@
+{{- $src := .Get "src" }}
+{{- $title := .Get "caption" }}
+{{- $width := .Get "w" }}
+{{- $imageUrl := $src }}
+{{- $res := .Page.Resources.GetMatch $src }}
+
+{{- /* ページまたぎでリンク切れを防ぐおまじない */}}
+{{- if $res }}
+{{- $src = $res.RelPermalink }}
+{{- $imageUrl = $res.RelPermalink }}
+{{- end }}
+
+{{- $processStr := "webp" }}
+{{- if $width }}
+{{- $processStr = printf "%s resize %sx" $processStr $width }}
+{{- end }}
+
+{{- $image := $res.Process $processStr }}
+{{- $imageUrl = $image.RelPermalink }}
+
+<figure>
+    <a href="{{ $src }}" target="_blank">
+        <img src="{{ $imageUrl }}" alt="{{ $src }}" />
+    </a>
+    {{- with $title }}
+    <figcaption>{{ . }}</figcaption>
+    {{- end }}
+</figure>
